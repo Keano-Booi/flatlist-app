@@ -20,8 +20,8 @@ const UserItem = ({
   favouritecolour: string;
 }) => (
   <View style={styles.item}>
-    <Text style={styles.name}>Name: {name}</Text>
-    <Text style={styles.age}>Age: {age}</Text>
+    <Text style={styles.name}>Full Name: {name}</Text>
+    <Text style={styles.age}> Current Age: {age}</Text>
     <Text style={styles.color}>Favourite Colour: {favouritecolour}</Text>
   </View>
 );
