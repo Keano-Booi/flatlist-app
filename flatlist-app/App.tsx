@@ -22,7 +22,7 @@ const UserItem = ({
   <View style={styles.item}>
     <Text style={styles.name}>Full Name: {name}</Text>
     <Text style={styles.age}> Current Age: {age}</Text>
-    <Text style={styles.color}>Favourite Colour: {favouritecolour}</Text>
+    <Text style={styles.color}>Your Favourite Colour: {favouritecolour}</Text>
   </View>
 );
 
