@@ -55,6 +55,9 @@ export default function App() {
     setNewAge("");
     setNewColour("");
   };
+  const deleteUser= (id) => {
+    setUsers(users.filter(user => user.id ! == id))
+  }
 
   return (
     <View style={styles.container}>
